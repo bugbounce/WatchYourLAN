@@ -54,6 +54,7 @@ Configuration can be done through config file or environment variables
 | TIMEOUT   | Time between scans (seconds) | 60 (1 minute) |
 | SHOUTRRR_URL | Url to any notification service supported by [Shoutrrr](https://github.com/containrrr/shoutrrr/tree/main/docs/services) (gotify, email, telegram and others) | "" |
 | THEME | Any theme name from https://bootswatch.com in lowcase | solar |
+| ONLY_COMPARE_MAC | Alerts will be sent based only on MAC comparison | false |
 
 ## Config file
 
@@ -67,6 +68,7 @@ GUIPORT="8840"
 TIMEOUT="300"           		# 5 minutes
 SHOUTRRR_URL="gotify://192.168.2.1:8083/AwQqpAae.rrl5Ob/?title=Unknown host detected&DisableTLS=yes"	# Url to notify
 THEME="darkly"
+ONLY_COMPARE_MAC="false"
 ```
 
 ## Thanks
